@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    justify-content: center;
+    display: flex;
+    background-color: #84B026;
+    height: 5vh;
+    align-items: center;
+    font-family: Comic Sans MS;
+    border-bottom: 5px solid #161F30;
+}
+
+.box0{
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 6px 1px #161F30;
+    border: 5px solid #173540;
+    border-radius: 20px ;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-family: Comic Sans MS;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.box0:hover{
+    width: 20%;
+    background-color: silver;
+    transition: all 1s;
+    size: 40px;
+    cursor: pointer;
+}
+
+.box{
+    width: 400px;
+    margin: auto;
+    border: 5px solid #173540;
+    border-radius: 20px ;
+    background-color: white;
+    padding: 20px; 
+    /*padding-bottom: 56.25%;*/
+}
+
+.box2{
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 6px 1px #161F30;
+    border: 5px solid #173540;
+    border-radius: 20px ;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-family: Comic Sans MS;
+    /*padding-bottom: 56.25%;*/
+}
+
+.bic{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.Faber{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.CIS{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.box:hover{
+    width: 25% ;
+    background-color: white;
+    transition: 1s;
+    size: 40px;
+    cursor: pointer;
+}
+
+.box p{
+    width: 250px;
+    margin: auto;
+
+}
+
+.all0{
+    margin-top: 20px;
+    display: flex;
+}
+
+.all{
+    display: flex;
+    height: 35vh;
+}
+
+.all2{
+    display: flex;
+    height: 15vh;
+}
+
+body{
+    background-color: #217373;
+}
