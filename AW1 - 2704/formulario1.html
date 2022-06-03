@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Exemplo1</title>
+</head>
+<body>
+    <form>
+        <h2> Formulario de Cadastro</h2>
+        <input type="text" name="nome">
+        <input type="submit" name="enviar" value="enviar"><br>
+        <input type="checkbox" name="veiculo1" value="bicicleta">Eu tenho uma Bicicleta<br>
+        <input type="checkbox" name="veiculo2" value="bicicleta">Eu tenho um Carro<br>
+        <input type="checkbox" name="veiculo3" value="bicicleta">Eu tenho uma Moto<br><br>
+
+        Selecione sua cor preferida: <input type="color" name="favcor" value="#0000FF"><br> 
+        Data de nascimento: <input type="date" name="nascimento"><br>
+        Hora de nascimento: <input type="datetime-local" name="bdaytime"><br> 
+        Mês e ano: <input type="month" name="mesano"><br>
+        Escolha o horário: <input type="time" name="usr_horario"><br>
+        Selecione a semana: <input type="week" name="semana"><br><br><br>
+        Email: <input type="email" name="e-mail" placeholder="digite seu e-mail aqui"><br><br>
+
+        Arquivo: <input type="file" name="Arquivos" multiple><br>
+        <input type="hidden" id="inputOculto" name="inputOculto" value="meuvalor">
+        <input type="image" src="rowlet.png" alt="Submit" width="48" height="48"><br><br>
+
+        Quantidade: (entre 1 e 5) <input type="number" name="quantidade" min="1" max="5"><br>
+
+        <input type="password" name="senha" placeholder="digite sua senha">
+
+        <p> Qual a sua idade: </p>
+        <input type="radio" name="idade" value="18_22">18 a 22<br> 
+        <input type="radio" name="idade" value="23_30">23 a 30<br> 
+        <input type="radio" name="idade" value="mais31">de 31 acima<br><br>
+        
+
+        <p> Defina seu nivel de satisfação: </p><br>
+        pouco satisfeito <input type="range" name="satisfacao" min="0" max="10">  muito satisfeito<br> <br>
+
+        Pesquisar: <input type="search" name="q"><br><br>
+        Telefone: <input type="tel" name="usertel"><br><br>
+        Link do seu WebSite: <input type="url" name="webpage"><br>
+ 
+        <textarea></textarea><br>
+        </html><textarea>Area de texto inicial dentro</textarea>       
+
+
+    </form>
+
+
+</body>
+</html>
